@@ -1,0 +1,48 @@
+# Maven / Java build output
+target/
+build/
+out/
+*.class
+
+# IDE settings
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated/
+.springBeans
+.sts4-cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Local environment and secrets (commit only the .example templates)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+
+# Local Spring Boot configuration overrides
+application-local.properties
+application-dev.properties
+application-prod.properties
+application-*.yml
+application-*.yaml
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
